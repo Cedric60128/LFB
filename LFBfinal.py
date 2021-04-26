@@ -377,10 +377,8 @@ if submit:
             )
         ]
     ))
-
-st.markdown(
-    """<a style='display: block; text-align: center;' href="https://share.streamlit.io/cedric60128/lfb/main/LFBfinal.py">BACK</a>
-    """,
-    unsafe_allow_html=True,
-)
-
+    st.markdown(
+        """<a style='display: block; text-align: center;' href="https://share.streamlit.io/cedric60128/lfb/main/LFBfinal.py">BACK</a>
+        """,
+        unsafe_allow_html=True,
+    )
