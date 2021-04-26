@@ -378,5 +378,8 @@ if submit:
         ]
     ))
 
+st.markdown(
+    """<a href="https://share.streamlit.io/cedric60128/lfb/main/LFBfinal.py">Retour</a>""", unsafe_allow_html=True,
+)
 
 
