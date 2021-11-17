@@ -36,7 +36,7 @@ welc =st.markdown(
     f"""
     <div class="container">
         <img class="logo-img" src="data:image/png;base64,{base64.b64encode(open(LOGO_IMAGE, "rb").read()).decode()}">
-        <p class="logo-text"><font color=#6e6e6e><b>Welcome</b></font> to the Arrival Time Estimator<br>dedicated to the London Fire Brigade.<br><br>This tool will help you to predict<br>the estimated time of arrival of the LFB,<br>based on the factors chosen.<br><br><b>Please select your settings</b><br><br><a href="https://www.cjoint.com/doc/21_04/KDAgN5zO3Bm_README.pdf" target="_blank"><font size=4><i><b>>> For more details about this project, check our analysis report here <<</b></i></font></a></p>
+        <p class="logo-text"><font color=#6e6e6e><b>Welcome</b></font> to the Arrival Time Estimator<br>dedicated to the London Fire Brigade.<br><br>This tool will help you to predict<br>the estimated time of arrival of the LFB,<br>based on the factors chosen.<br><br><b>Please select your settings</b><br><br><a href="https://www.cjoint.com/doc/21_04/KDAgN5zO3Bm_README.pdf" target="_blank"><font size=4><i><b>>> For all the details about this project, check our analysis report here <<</b></i></font></a></p>
     </div>
     """,
     unsafe_allow_html=True
